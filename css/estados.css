@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* body */
+body {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+}
+/* fin body */
+
+/* header */
+#header {
+  background-color: #222e35;
+  width: 4vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+  border-right: 0.1rem solid rgba(209, 215, 219, 0.063);
+}
+
+.icon {
+  color: rgb(174, 186, 193);
+}
+.header-section div:hover .icon {
+  border-radius: 50%;
+  border: 3px solid #111b21;
+}
+.hr {
+  border: 1.4px solid rgba(255, 255, 255, 0.2);
+  width: 2.6rem;
+}
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+#header img {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+}
+
+.header-img img {
+  border-radius: 50%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+}
+/* fin header */
+
+/* main */
+main {
+  background-color: #0b1012;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.conteiner-header {
+  background-color: #111b21;
+}
+.titulo {
+  display: block;
+  padding: 2rem;
+}
+.titulo h2 {
+  color: #e9edef;
+  font-family: Helvetica, sans-serif;
+  font-size: 2.3rem;
+}
+
+.estados {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.estados .estados-image img {
+  border-radius: 50%;
+  border: 2.7px dashed #00a884;
+  width: 4.7rem;
+}
+
+.estados-datos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.estados-datos h3 {
+  color: #d1d7d8;
+  font-size: 1.4rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.estados-datos p {
+  color: #8696a0;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.conteiner-estados {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background-color: #111b21;
+}
+
+#main .card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1rem;
+  gap: 1rem;
+  position: relative;
+}
+.card_header {
+  height: 5.2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  padding-bottom: 1rem;
+}
+.card_header h3 {
+  color: #00a884;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.6rem;
+  /* padding-top: 2rem; */
+  /* padding-left: 3rem; */
+  position: absolute;
+}
+
+#card_id h3 {
+  border-top: 1px solid rgba(255, 255, 255, 0.104);
+  padding: 0.3rem;
+}
+
+.card_image img {
+  border-radius: 50%;
+  border: 2.7px dashed #00a884;
+  width: 4.1rem;
+}
+.card_data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card_data h3 {
+  color: #d1d7d8;
+  font-size: 1.4rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.card_data p {
+  color: #8696a0;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.104);
+  width: 100%;
+  padding-bottom: 0.8rem;
+}
+.card:hover {
+  background-color: #222e35;
+}
+
+.estados-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.estados-footer {
+  gap: 0.3rem;
+}
+
+.p1 p {
+  color: #8696a0;
+}
+.p2 {
+  color: #53bdeb;
+}
+
+/* fin main */
+
+/* footer */
+#footer {
+  background-color: #222e35;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem;
+}
+
+.conteiner-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+#footer .footer-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 9rem;
+}
+#footer .footer-image img {
+  object-fit: cover;
+  width: 25.5rem;
+}
+
+#footer .data-footer {
+  padding-bottom: 5rem;
+}
+#footer .data-footer h1 {
+  font-size: 3rem;
+  color: #e9edede0;
+  margin: 1rem;
+}
+#footer .data-footer p {
+  font-size: 1.4rem;
+  color: #8696a0;
+  margin: 1rem;
+}
+#footer .data-footer button {
+  background-color: #00a884;
+  border: 1px solid #00a884;
+  margin-top: 3rem;
+  height: 3rem;
+  width: 22rem;
+  border-radius: 3rem 3rem;
+}
+#footer .data-footer button a {
+  text-decoration: none;
+  color: #111b21;
+  font-size: 1.4rem;
+}
+#footer .data-footer button:hover {
+  background-color: #0cc69efd;
+}
+
+.box p {
+  color: #667781;
+  font-size: 1.1rem;
+}
+
+/* fin footer */

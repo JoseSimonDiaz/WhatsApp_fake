@@ -1,0 +1,128 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+.container {
+  height: 230px;
+  width: 100%;
+  background-color: #00a884;
+  display: inline-block;
+}
+
+.content {
+  width: 70rem;
+  height: 40rem;
+  background-color: white;
+  margin: 3rem 15rem 3rem 15rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 3px 7px 22px 1px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 3px 7px 22px 1px rgba(0, 0, 0, 0.69);
+  box-shadow: 3px 7px 22px 1px rgba(0, 0, 0, 0.69);
+}
+.box_header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.155);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.box_image {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_image img {
+  width: 7rem;
+}
+
+.box_text {
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box_text h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+.box_header p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+.box_bottom {
+  width: 15%;
+}
+
+.box_bottom a {
+  background-color: #00a884;
+  border-radius: 1px solid #00a884;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  border-radius: 19px 19px;
+  width: 100%;
+}
+
+.box_bottom:hover a {
+  background-color: #00a884ef;
+}
+.main_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 20rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+}
+
+.text-list {
+  width: 60%;
+  padding-left: 2rem;
+}
+.text-list h2 {
+  font-family: Helvetica, sans-serif;
+  padding-bottom: 1.4rem;
+  font-size: 1.4rem;
+  color: #3b4a54a6;
+}
+
+.text-list ol p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #3b4a54a6;
+}
+
+.text-list ol span {
+  font-family: Helvetica, sans-serif;
+  /* color: #41525D; */
+  color: black;
+  font-size: 1.2rem;
+}
+
+.text-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.main_text .text-img img {
+  width: 15rem;
+}
