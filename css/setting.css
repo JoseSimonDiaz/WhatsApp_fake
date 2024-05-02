@@ -140,12 +140,15 @@ body {
 #main .perfil-data h2 {
   font-size: 1.8rem;
   color: #e9edef;
+  font-family: Helvetica, sans-serif;
 }
 
 .perfil-data p {
   color: #aebac1;
   font-size: 1rem;
   padding-left: 4px;
+  font-family: Helvetica, sans-serif;
+
 }
 .perfil-conteiner:hover {
   background-color: #222e35;
